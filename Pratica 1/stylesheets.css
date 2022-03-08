@@ -1,0 +1,15 @@
+.nav-wrapper {
+  padding-left: 3em;
+}
+
+h1{
+  font-size: 3rem;
+  background-color: #bbdefb;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: left;
+}
+
+.card-titulo {
+  text-shadow: 2px 2px #333;
+}
