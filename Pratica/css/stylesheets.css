@@ -17,3 +17,11 @@ h1{
 .correct {
   color: #77EF88;
 }
+
+.hidden {
+  display: none;
+}
+
+.erro {
+  color: #ef1111
+}
