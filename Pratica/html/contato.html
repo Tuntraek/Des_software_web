@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="../css/stylesheets.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet"> 
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../scripts/index.js"></script>
+    <title>Luz Ingá - Loja</title>
+  </head>
+  <header>
+    <nav>
+      <div class="nav-wrapper light-blue darken-2">
+        <a href="index.html" class="brand-logo">
+          <i class="material-icons">category</i> Luz Ingá
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html"><i class="material-icons left">view_quilt</i>Produtos</a></li>
+          <li><a href="contato.html"><i class="material-icons left">mail_outline</i>Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1 class="blue-text text-darken-3">Contato</h1>
+      </div>
+      <div class="row">
+        <p><em>Preencha o formulário abaixo e receba alertas sobre a nossas ofertas promocionais!</em></p>
+        <div class="divider"></div>
+      </div>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="cod_cnpj" type="text" class="validate">
+              <label for="cod_cnpj">CNPJ</label>
+              <p class="hidden erro" id="cnpj_erro"></p>
+            </div>
+            <div class="input-field col s12 m6">
+              <input id="cod_nome_fantasia" type="text" class="validate">
+              <label for="cod_nome_fantasia">Nome Fantasia</label>
+              <p class="hidden erro" id="nm_fantasia_erro"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">email</i>
+              <input id="ds_email" type="email" class="validate">
+              <label for="ds_email">E-mail</label>
+              <p class="correct" id="email_erro"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <lable for="ds_comentario">Mensagem</lable>
+              <textarea id="ds_comentario" class="materialize-textarea"></textarea>
+              <p class="hidden erro" id="msg_erro"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="center col s12">
+              <button class=" light-blue darken-2 btn waves-effect waves-light " type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <footer class="page-footer light-blue darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Luz Ingá</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">share</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2022 Copyright Text
+      </div>
+    </div>
+  </footer>
+</html>
